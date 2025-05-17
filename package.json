@@ -2,6 +2,7 @@
   "name": "test-node-js-ts",
   "version": "0.0.1",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "npx vite-node ./index.js",
     "dev": "nodemon --watch 'src/**/*' --exec \"npm run start\"",
